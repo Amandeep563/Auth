@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
   res.json("Server is working");
 });
 
-//database
+//database connection
 connectDB();
 
 app.listen(PORT, () => {
